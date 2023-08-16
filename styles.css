@@ -53,3 +53,12 @@ form
     border-radius: 5px;
     margin-left: 10px;
 }
+
+.search-results
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
