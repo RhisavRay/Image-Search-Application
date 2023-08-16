@@ -40,3 +40,8 @@ form
     font-size: 18px;
     color: #333;
 }
+
+#search-button
+{
+    padding: 10px 20px;
+}
