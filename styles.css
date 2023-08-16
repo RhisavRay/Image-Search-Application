@@ -35,7 +35,7 @@ form
     max-width: 400px;
     padding: 10px 20px;
     border: none;
-    box-shadow: 0 0 6px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     font-size: 18px;
     color: #333;
@@ -44,4 +44,12 @@ form
 #search-button
 {
     padding: 10px 20px;
+    background-color: #138065;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
 }
