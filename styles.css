@@ -94,3 +94,16 @@ form
     padding: 10px;
     text-transform: capitalize;
 }
+
+#show-more-button
+{
+    background-color: #008CBA;
+    font-size: 18px;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+    display: none;
+}
