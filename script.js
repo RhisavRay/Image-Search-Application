@@ -30,5 +30,12 @@ async function searchImages()
         imageLink.href = result.links.html
         imageLink.target = "_blank"
         imageLink.textContent = result.alt_description
+
+        imageWrapper.appendChild(image)
+        imageWrapper.appendChild(imageLink)
+        imageWrapper.appendChild(imageWrapper)
     })
+    page++
+    if(page > 1)
+        showMore.style.display = "block"
 }
